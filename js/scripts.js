@@ -6,9 +6,8 @@ $(function() {
 
 
 
-  // $(".op").click(function(){
-  //   $(".op *").toggle();
+//$(".operations").click(function(){
+//  $(".operations *").toggle();
 
-  // $(".op h2").toggle();
-//      $(".op p").toggle();
-// })
+//$(".operations h2").toggle();
+//  $(".operations p").toggle();

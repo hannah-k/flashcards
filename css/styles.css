@@ -7,38 +7,19 @@ h2 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
   display: none;
   font-style: italic;
 }
 
 .flashcard {
-    height: 250px;
+    height: 275px;
     width: auto;
     margin: 15px;
     border-radius: 10px;
     border: solid 3px #0e1f3a;
     padding-top: 80px;
     background-color: #bbceed;
+    white-space: normal;
+    word-wrap: break-word;
 }
-
-/*javaScript (JS)
-an object-oriented computer programming language commonly used to create interactive effects within web browsers.
-Operators
-Variables
-Variable naming conventions
-Functions
-Methods
-Arguments
-Parameters
-Return
-Chaining methods
-Strings
-Booleans
-Undefined
-NaN
-Escape
-Alert
-Comments
-jQuery
-Attributes*/
