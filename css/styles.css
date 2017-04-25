@@ -42,6 +42,6 @@ p {
 
 }
 
-.word:hover {
+.definition:hover {
   border: solid 3px yellow;
 }

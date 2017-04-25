@@ -1,5 +1,5 @@
 $(function() {
-  $(".flashcard").click(function() {
+  $(".flashcard").hover(function() {
     // $(this).children().toggle();
     $(this).children(".word").toggle();
     $(this).children(".definition").toggle();
