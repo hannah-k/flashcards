@@ -1,6 +1,8 @@
 $(function() {
   $(".flashcard").click(function() {
-    $(this).children().toggle();
+    // $(this).children().toggle();
+    $(this).children(".word").toggle();
+    $(this).children(".definition").toggle();
   });
 });
 

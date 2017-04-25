@@ -8,11 +8,10 @@ h2 {
 
 p {
   font-size: 16px;
-  display: none;
   font-style: italic;
 }
 
-.flashcard {
+.word {
     height: 275px;
     width: auto;
     margin: 15px;
@@ -22,4 +21,27 @@ p {
     background-color: #bbceed;
     white-space: normal;
     word-wrap: break-word;
+}
+
+.definition {
+    padding: 15px;
+    display: none;
+    height: 275px;
+    width: auto;
+    margin: 15px;
+    border-radius: 10px;
+    border: solid 3px #0e1f3a;
+    padding-top: 80px;
+    background-color: #def7cd;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.flashcard {
+  cursor: pointer;
+
+}
+
+.word:hover {
+  border: solid 3px yellow;
 }
